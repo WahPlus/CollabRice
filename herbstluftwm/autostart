@@ -21,6 +21,9 @@ Mod=Mod1    # Use alt as the main modifier
 # Apps
 TERMINAL=kitty
 
+# Set wallpaper
+feh --bg-fill ~/.config/wallpaper.png
+
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c close
