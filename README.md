@@ -5,7 +5,7 @@ A collaborative Arch Linux desktop rice by me and Fluxdrive.
 
 ## Installation
 
-1. Install the packages `sway`, `greetd`, `greetd-regreet`, `herbstluftwm`, `xorg-server`, `xorg-xinit`.
+1. Install the packages `sway`, `greetd`, `greetd-regreet`, `herbstluftwm`, `xorg-server`, `xorg-xinit`, `kitty`.
 2. Edit the file `/etc/greetd/config.toml` to set `command` (under `[default_session]`) to `sway --config /etc/greetd/sway-config`.
 3. Create the file `/etc/greetd/sway-config`:
 ```
