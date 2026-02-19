@@ -5,7 +5,7 @@ A collaborative Arch Linux desktop rice by me and Fluxdrive.
 
 ## Installation
 
-1. Install the packages `sway`, `greetd`, `greetd-regreet`, `herbstluftwm`, `xorg-server`, `xorg-xinit`, `kitty`, `feh`, `ttf-firacode-nerd`, `fish`, `fisher`, `pkgfile`.
+1. Install the packages `sway`, `greetd`, `greetd-regreet`, `herbstluftwm`, `xorg-server`, `xorg-xinit`, `kitty`, `feh`, `ttf-firacode-nerd`, `fish`, `pkgfile`.
 2. Edit the file `/etc/greetd/config.toml` to set `command` (under `[default_session]`) to `sway --config /etc/greetd/sway-config`.
 3. Create the file `/etc/greetd/sway-config`:
 ```
@@ -14,4 +14,3 @@ include /etc/sway/config.d/*
 ```
 4. Enable `greetd.service`.
 5. Copy `wallpaper.png`, `herbstluftwm/`, `fish/` into `~/.config`.
-6. `fisher install IlanCosman/tide@v6`
