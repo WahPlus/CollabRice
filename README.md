@@ -13,4 +13,4 @@ exec "regreet; swaymsg exit"
 include /etc/sway/config.d/*
 ```
 4. Enable `greetd.service`.
-5. Copy `wallpaper.png`, `herbstluftwm/`, `fish/` into `~/.config`.
+5. Copy `wallpaper.png`, `herbstluftwm/`, `fish/`, `kitty/` into `~/.config`.
