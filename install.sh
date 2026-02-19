@@ -7,6 +7,7 @@ sed -i "s/^command.*\"$/command = \"sway --config /etc/greetd/sway-config\""
 
 $(ELEV) echo $'exec "regreet; swaymsg exit"\ninclude /etc/sway/config.d/*' > /etc/greetd/sway-config
 
-cp -r ./wallpaper.png herbstluftwm fish ~/.config
+rm -rf ~/.config/herbstluftwm ~/.config/fish ~/.config/kitty
+cp -r ./wallpaper.png herbstluftwm fish kitty ~/.config
 
 $(ELEV) systemctl enable --now greetd.service
